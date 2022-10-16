@@ -1,5 +1,6 @@
 {
   "name": "portfolio",
+  "homepage": "https://SupremeSingh.github.io/portfolio/",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
@@ -29,7 +30,7 @@
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "predeploy" : "npm run build",
-    "deploy" : "gh-pages -d build",
+    "deploy" : "gh-pages -d build"
   },
   "eslintConfig": {
     "extends": [
@@ -53,6 +54,5 @@
     "@types/uuid": "^8.3.4",
     "@types/webpack-env": "^1.17.0",
     "gh-pages": "^4.0.0"
-  },
-  "homepage": "http://SupremeSingh.github.io/SupremeSingh.github.io"
+  }
 }
