@@ -21,7 +21,7 @@ export const contacts: Contact[] = [
     name: "Instagram:",
     info: "@man_meat_singh",
     icon: <AiFillInstagram className="contact-icon" />,
-    url: "https://www.instagram.com/?hl=en",
+    url: "https://www.instagram.com/man_meat_singh/?hl=en",
   },
   {
     name: "TWITTER:",
