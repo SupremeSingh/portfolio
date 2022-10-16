@@ -1,6 +1,6 @@
 {
   "name": "portfolio",
-  "homepage": "https://SupremeSingh.github.io/portfolio/",
+  "homepage": "https://SupremeSingh.github.io/portfolio/public",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
