@@ -72,7 +72,7 @@ const About = () => {
             </a>
           </div>
 
-          <a href="mailto:manmit.singh@duke.edu">
+          <a href="mailto:manmit@starkware.co">
             <Button size='lg' rightIcon={<AiOutlineArrowRight />} colorScheme="blue" variant='solid'>
               Contact Me
             </Button>

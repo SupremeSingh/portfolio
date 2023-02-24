@@ -17,7 +17,7 @@ const Problem = () => {
   return(
     <div className="bg-projects">
       <p className="heading">Why Web3</p>
-      <p className="text">Th reason I'm so passionate about blockchains ...</p>
+      <p className="text">The reason I'm so passionate about blockchains ...</p>
       <br></br>
       <Text fontSize="3xl">
         TLDR: crypto matter because, in an increasingly digital society, it

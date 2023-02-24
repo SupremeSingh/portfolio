@@ -2,6 +2,7 @@ import outliers from "./../../images/outliers.jpeg";
 import github from "./../../images/github.jpeg";
 import ichi from "./../../images/ichi.jpeg";
 import duke from "./../../images/duke.png";
+import starkware from "./../../images/starkware.png";
 import sikh from "./../../images/sikh.png";
 
 export type Skill = {
@@ -23,6 +24,11 @@ export const getSkill = (names: string[]) => {
 }
 
 export const skills: Skill[] = [
+  {
+    name: "Developer Advocacy - Starkware",
+    url: "https://starkware.co/",
+    img: starkware
+  },
   {
     name: "ICHI by DMA Labs",
     url: "https://ichi.org/",
