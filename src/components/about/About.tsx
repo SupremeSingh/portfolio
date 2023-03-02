@@ -53,7 +53,7 @@ const About = () => {
             </Heading>
           </div>
           <div className="about-text-desc">
-            <Text fontSize='3xl'>a passionate <span className="name">buidler</span> with a focus on <span className="name">ZK Proofs, ReFi and DeSci</span>. I'm based out of Durham, North Carolina and have now been in the web3 space since 2018. 
+            <Text fontSize='3xl'>a passionate <span className="name">buidler</span> with a focus on <span className="name">ZK Proofs, ReFi and DeSci</span>. I'm based out of San Francisco and have been in the crypto space since 2018. 
             I'm always eager to meet and learn from other people building the future of the web.</Text>
           </div>
 
