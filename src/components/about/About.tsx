@@ -29,7 +29,7 @@ const About = () => {
     if(isVisible) {
       return(
         <div className="alert">
-          <Heading as="h3" size={getAlertSize()}>{"   "}<a href="https://github.com/SupremeSingh/Awesome-ZK" className="contact-link" target="_blank">Working on ZK STARKs? Let's Talk!</a></Heading>
+          <Heading as="h3" size={getAlertSize()}>{"   "}<a href="https://www.starknet.io/en" className="contact-link" target="_blank">Working on ZK or Web3? Let's Talk!</a></Heading>
           <CloseButton size='lg' className="close-btn" onClick={() => hide()} />
         </div>
       )
@@ -53,7 +53,7 @@ const About = () => {
             </Heading>
           </div>
           <div className="about-text-desc">
-            <Text fontSize='3xl'>a passionate <span className="name">buidler</span> with a focus on <span className="name">ZK Proofs, ReFi and DeSci</span>. I'm based out of San Francisco and have been in the crypto space since 2018. 
+            <Text fontSize='3xl'>a passionate <span className="name">buidler</span> with a focus on <span className="name">ZK Proofs, Blockchain Infrastructure and ReFi</span>. I'm based in San Francisco and have been in the blockchain space since 2018. 
             I'm always eager to meet and learn from other people building the future of the web.</Text>
           </div>
 
@@ -61,18 +61,18 @@ const About = () => {
             <a href="https://github.com/SupremeSingh" target="_blank">
               <AiFillGithub className="icon" />
             </a>
-            <a href="https://twitter.com/man_meat_singh" target="_blank">
+            <a href="https://twitter.com/man_bun_mit" target="_blank">
               <AiFillTwitterCircle className="icon" />
             </a>
             <a href="https://www.linkedin.com/in/manmit-singh99/" target="_blank">
               <AiFillLinkedin className="icon" />
             </a>
-            <a href="https://t.me/money_singh01" target="_blank">
+            <a href="https://t.me/man_bun_mit" target="_blank">
               <BsTelegram className="icon" />
             </a>
           </div>
 
-          <a href="mailto:manmit@starkware.co">
+          <a href="mailto:manmit@starknet.org">
             <Button size='lg' rightIcon={<AiOutlineArrowRight />} colorScheme="blue" variant='solid'>
               Contact Me
             </Button>

@@ -58,7 +58,7 @@ const Background = () => {
           Having had the time to introspect over COVID, I don’t define myself
           with any one skillset or area of expertise anymore. I try to be more
           than that. To find my fullest potential while balancing the many
-          colours of life. Be it behind a screen or in a forest. Chasing success
+          colors of life. Be it behind a screen or in a forest. Chasing success
           or trying to help others.
         </Text>
       </div>

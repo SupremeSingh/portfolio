@@ -11,47 +11,40 @@ import "./Contact.css";
 
 export type Contact = {
   name: string,
-  info: string,
   icon: React.ReactElement,
   url: string,
 }
 
 export const contacts: Contact[] = [
   {
-    name: "Instagram:",
-    info: "@man_meat_singh",
+    name: "Instagram",
     icon: <AiFillInstagram className="contact-icon" />,
-    url: "https://www.instagram.com/man_meat_singh/?hl=en",
+    url: "https://www.instagram.com/man_bun_mit/?hl=en",
   },
   {
-    name: "TWITTER:",
-    info: "@man_meat_singh",
+    name: "X.com",
     icon: <AiFillTwitterCircle className="contact-icon" />,
-    url: "https://twitter.com/man_meat_singh",
+    url: "https://twitter.com/man_bun_mit",
   },
   {
-    name: "TELEGRAM:",
-    info: "@money_singh01",
+    name: "Telegram",
     icon: <BsTelegram className="contact-icon" />,
-    url: "https://t.me/money_singh01",
+    url: "https://t.me/man_bun_mit",
   },
   {
-    name: "DISCORD:",
-    info: "money_singh#6494",
+    name: "Discord",
     icon: <FaDiscord className="contact-icon" />,
     url: "https://discord.com/login",
   },
   {
-    name: "GitHub:",
-    info: "@SupremeSingh",
+    name: "GitHub",
     icon: <AiFillGithub className="contact-icon" />,
     url: "https://github.com/SupremeSingh",
   },
   {
-    name: "LOCATION & ZONE:",
-    info: "US-East, UTC+5",
+    name: "Location and Time",
     icon: <IoLocationOutline className="contact-icon" />,
-    url: "https://www.timeanddate.com/time/zone/usa/durham",
+    url: "https://www.timeanddate.com/time/zone/usa/san-francisco",
   },
 ];
 
@@ -60,7 +53,7 @@ const Contact = () => {
     <div className="bg-contact">
       <div className="contact-header">
         <p className="heading">Contact Me</p>
-        <p className="text">If you have any questions or want to colab, reach out to me here:</p>
+        <p className="text">If you have any questions or want to collaborate, feel free to reach out to me!</p>
       </div>
 
       <div className="contact-grid">
@@ -71,7 +64,6 @@ const Contact = () => {
                   {contact.icon}
                   <div className="contact-text-div">
                     <p className="contact-title">{contact.name}</p>
-                    <p className="contact-details">{contact.info}</p>
                   </div>
               </div>
             </a>

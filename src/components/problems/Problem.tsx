@@ -26,14 +26,14 @@ const Problem = () => {
       <br></br>
       <UnorderedList>
         <ListItem>
-          <div className="about-text-desc">
+          <div className="text">
             <Text fontSize="3xl">
               Robust guarantees of trust between strategic actors
             </Text>
           </div>
         </ListItem>
         <ListItem>
-          <div className="about-text-desc">
+          <div className="text">
             <Text fontSize="3xl">
               Transparency which enables accountability in participants
             </Text>
@@ -44,7 +44,7 @@ const Problem = () => {
       <Text fontSize="3xl">
         Consider the prisoner’s dilemma. Two inmates who don’t necessarily know
         what the other will do, perhaps even have a conflict of interest -
-        always snitch on each other. There is no retribution, so they optimise
+        always snitch on each other. There is no retribution, so they optimize
         for individual interest, not collective welfare. Overall, both suffer
         more than they would have if they had coordinated, been able to trust
         each other reliably, and not snitched.
@@ -63,7 +63,7 @@ const Problem = () => {
         This problem becomes 1000X online. There, many of our interactions are
         between strangers who can’t trust each other and have no expectation of
         seeing each other again or facing the consequences of making the group
-        worse off. This makes it a one-off game – you care about maximising
+        worse off. This makes it a one-off game – you care about maximizing
         returns for yourself ONLY.
       </Text>
       <br></br>
