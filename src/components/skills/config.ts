@@ -25,14 +25,9 @@ export const getSkill = (names: string[]) => {
 
 export const skills: Skill[] = [
   {
-    name: "Developer Advocacy - Starknet",
-    url: "https://starknet.co/",
+    name: "Starknet Blockchain",
+    url: "https://www.starknet.io/en/",
     img: starknet
-  },
-  {
-    name: "ICHI by DMA Labs",
-    url: "https://ichi.org/",
-    img: ichi
   },
   {
     name: "Awesome-ZK",
@@ -46,7 +41,7 @@ export const skills: Skill[] = [
   },
   {
     name: "Duke Blockchain Lab",
-    url: "https://www.dukeblockchain.xyz/",
+    url: "https://researchblog.duke.edu/2021/11/08/the-duke-blockchain-lab-disrupting-and-redefining-finance/",
     img: duke
   },
   {

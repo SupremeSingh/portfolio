@@ -7,10 +7,6 @@ import "./About.css";
 
 
 const About = () => {
-  
-  const [isVisible, setIsVisible] = useState<boolean>(true);
-
-  const hide = () => setIsVisible(false);
 
   const getFontSize = () => {
     let width = window.innerWidth;
@@ -24,23 +20,8 @@ const About = () => {
     if(width < 1275) return "md";
     return "lg";
   }
-
-  const Alert = () => {
-    if(isVisible) {
-      return(
-        <div className="alert">
-          <Heading as="h3" size={getAlertSize()}>{"   "}<a href="https://www.starknet.io/en" className="contact-link" target="_blank">Working on ZK or Web3? Let's Talk!</a></Heading>
-          <CloseButton size='lg' className="close-btn" onClick={() => hide()} />
-        </div>
-      )
-    }else{
-      return null
-    }
-  }
-
   return(
     <>
-    <Alert />
     <div className="bg">
       <div className="about-wrapper">
         <div className="about-text">
@@ -53,7 +34,7 @@ const About = () => {
             </Heading>
           </div>
           <div className="about-text-desc">
-            <Text fontSize='3xl'>a passionate <span className="name">buidler</span> with a focus on <span className="name">ZK Proofs, Blockchain Infrastructure and ReFi</span>. I'm based in San Francisco and have been in the blockchain space since 2018. 
+            <Text fontSize='3xl'>a passionate <span className="name">buidler</span> with a focus on <span className="name">ZK Proofs, Blockchain Infrastructure and ReFi</span>. I'm based in the Bay Area and have been in the blockchain space since 2018. 
             I'm always eager to meet and learn from other people building the future of the web.</Text>
           </div>
 
@@ -72,7 +53,7 @@ const About = () => {
             </a>
           </div>
 
-          <a href="mailto:manmit@starknet.org">
+          <a href="mailto:manmitsingh1999@gmail.com">
             <Button size='lg' rightIcon={<AiOutlineArrowRight />} colorScheme="blue" variant='solid'>
               Contact Me
             </Button>
