@@ -17,7 +17,7 @@ export type Contact = {
 
 export const contacts: Contact[] = [
   {
-    name: "X.com",
+    name: "Twitter",
     icon: <AiFillTwitterCircle className="contact-icon" />,
     url: "https://twitter.com/man_bun_mit",
   },
@@ -26,16 +26,6 @@ export const contacts: Contact[] = [
     icon: <BsTelegram className="contact-icon" />,
     url: "https://t.me/man_bun_mit",
   },
-  {
-    name: "GitHub",
-    icon: <AiFillGithub className="contact-icon" />,
-    url: "https://github.com/SupremeSingh",
-  },
-  {
-    name: "Location and Time",
-    icon: <IoLocationOutline className="contact-icon" />,
-    url: "https://www.timeanddate.com/time/zone/usa/los-angeles",
-  }
 ];
 
 const Contact = () => {

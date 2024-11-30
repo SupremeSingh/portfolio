@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Heading, Text, Button, CloseButton } from '@chakra-ui/react';
-import { AiFillGithub, AiFillTwitterCircle, AiFillLinkedin, AiOutlineArrowRight } from "react-icons/ai";
+import { AiFillGithub, AiFillTwitterCircle, AiFillLinkedin, AiOutlineArrowRight, AiFillYoutube } from "react-icons/ai";
 import { BsTelegram, BsChevronDown } from "react-icons/bs";
 import avatar from "../../images/avatar.jpg";
 import "./About.css";
@@ -34,7 +34,7 @@ const About = () => {
             </Heading>
           </div>
           <div className="about-text-desc">
-            <Text fontSize='3xl'>a passionate <span className="name">buidler</span> with a focus on <span className="name">ZK Proofs, Blockchain Infrastructure and ReFi</span>. I'm based in the Bay Area and have been in the blockchain space since 2018. 
+            <Text fontSize='3xl'>a passionate <span className="name">buidler</span> with a focus on <span className="name">Cryptography, Game Theory and Blockchains</span>. I'm based in the Bay Area and have been in the blockchain space since 2018. 
             I'm always eager to meet and learn from other people building the future of the web.</Text>
           </div>
 
@@ -42,22 +42,24 @@ const About = () => {
             <a href="https://github.com/SupremeSingh" target="_blank">
               <AiFillGithub className="icon" />
             </a>
-            <a href="https://twitter.com/man_bun_mit" target="_blank">
+            <a href="https://x.com/man_bun_mit" target="_blank">
               <AiFillTwitterCircle className="icon" />
             </a>
             <a href="https://www.linkedin.com/in/manmit-singh99/" target="_blank">
               <AiFillLinkedin className="icon" />
             </a>
-            <a href="https://t.me/man_bun_mit" target="_blank">
-              <BsTelegram className="icon" />
+            <a href="https://www.youtube.com/@man_bun_mit" target="_blank">
+              <AiFillYoutube className="icon" size={50} style={{ transform: 'translateY(-3px)' }} />
             </a>
           </div>
 
-          <a href="mailto:manmitsingh1999@gmail.com">
-            <Button size='lg' rightIcon={<AiOutlineArrowRight />} colorScheme="blue" variant='solid'>
-              Contact Me
-            </Button>
-          </a>
+          <div style={{ marginBottom: "2rem" }}>
+            <a href="mailto:manmitsingh1999@gmail.com">
+              <Button size='lg' rightIcon={<AiOutlineArrowRight />} colorScheme="blue" variant='solid'>
+                Contact Me
+              </Button>
+            </a>
+          </div>
         </div>
         <div className="about-avatar">
           <img src={avatar} className="avatar" alt="Manmit Avatar" />

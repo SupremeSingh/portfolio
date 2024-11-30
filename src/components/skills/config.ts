@@ -41,7 +41,7 @@ export const skills: Skill[] = [
   },
   {
     name: "Duke Blockchain Lab",
-    url: "https://researchblog.duke.edu/2021/11/08/the-duke-blockchain-lab-disrupting-and-redefining-finance/",
+    url: "https://x.com/dukeblockchain?lang=en",
     img: duke
   },
   {

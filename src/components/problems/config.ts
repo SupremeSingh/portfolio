@@ -17,6 +17,13 @@ export type Project = {
   technologies: Skill[],
 }
 
+export type VideoContent = {
+  title: string,
+  description: string,
+  thumbnailUrl: string,
+  videoUrl: string
+}
+
 export const projects: Project[] = [
   {
     name: "Portfolio",
@@ -75,3 +82,22 @@ export const projects: Project[] = [
     technologies: getSkill(["react native", "javascript", "moralis", "css", "npm"])
   },
 ]
+
+export const getYouTubeThumbnail = (videoId: string): string => {
+  return `https://img.youtube.com/vi/${videoId}/maxresdefault.jpg`;
+}
+
+export const videos: VideoContent[] = [
+  {
+    title: "Scaling Ethereum with Cairo",
+    description: "Topology x Starknet Meetup",
+    thumbnailUrl: getYouTubeThumbnail("ITL_Qh2PpSU&list=PLogOPtuvg8h_HjvvH7_GeTmPp0YwZ0GNF"),
+    videoUrl: "https://www.youtube.com/watch?v=ITL_Qh2PpSU&list=PLogOPtuvg8h_HjvvH7_GeTmPp0YwZ0GNF"
+  },
+  {
+    title: "Account Abstraction on Starknet",
+    description: "Tech Stage, EthGlobal NYC",
+    thumbnailUrl: getYouTubeThumbnail("lB0a_bIjrXc&list=PLogOPtuvg8h_HjvvH7_GeTmPp0YwZ0GNF&index=2"),
+    videoUrl: "https://www.youtube.com/watch?v=lB0a_bIjrXc&list=PLogOPtuvg8h_HjvvH7_GeTmPp0YwZ0GNF&index=2"
+  }
+];

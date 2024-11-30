@@ -119,6 +119,9 @@
   width: 50vw;
 }
 
+.button-wrapper {
+  margin-bottom: 2rem;
+}
 
 @media only screen and (max-width: 1250px) {
   .bg {
