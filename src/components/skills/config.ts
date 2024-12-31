@@ -46,7 +46,7 @@ export const skills: Skill[] = [
   },
   {
     name: "Duke Sikh Society",
-    url: "https://dukesikhsociety.wixsite.com/website",
+    url: "https://www.instagram.com/dukesikhsociety/",
     img: sikh
   },
 ]
