@@ -34,8 +34,7 @@ const About = () => {
             </Heading>
           </div>
           <div className="about-text-desc">
-            <Text fontSize='3xl'>a passionate <span className="name">builder</span> with a focus on <span className="name">Cryptography, Game Theory and Blockchains</span>. I'm based in the Bay Area and have been in the blockchain space since 2018. 
-            I'm always eager to meet and learn from other people building the future of the web.</Text>
+            <Text fontSize='3xl'>a passionate <span className="name">builder</span> with a focus on <span className="name">cryptography, game theory and blockchains</span>. I'm always eager to meet and learn from other people shaping the future of the web.</Text>
           </div>
 
           <div className="icons">
