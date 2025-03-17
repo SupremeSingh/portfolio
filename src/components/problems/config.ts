@@ -89,15 +89,15 @@ export const getYouTubeThumbnail = (videoId: string): string => {
 
 export const videos: VideoContent[] = [
   {
-    title: "Scaling Ethereum with Cairo",
-    description: "Topology x Starknet Meetup",
-    thumbnailUrl: getYouTubeThumbnail("ITL_Qh2PpSU&list=PLogOPtuvg8h_HjvvH7_GeTmPp0YwZ0GNF"),
-    videoUrl: "https://www.youtube.com/watch?v=ITL_Qh2PpSU&list=PLogOPtuvg8h_HjvvH7_GeTmPp0YwZ0GNF"
+    title: "Unlocking Privacy on Starknet",
+    description: "Noir Workshop, Ethereum Denver",
+    thumbnailUrl: getYouTubeThumbnail("DGdcZZVUSxc&list=PLabpoAlaCBY09_O-cWlWnzxSo36x5CFC2"),
+    videoUrl: "https://www.youtube.com/watch?v=DGdcZZVUSxc&list=PLabpoAlaCBY09_O-cWlWnzxSo36x5CFC2"
   },
   {
     title: "Account Abstraction on Starknet",
     description: "Tech Stage, EthGlobal NYC",
-    thumbnailUrl: getYouTubeThumbnail("lB0a_bIjrXc&list=PLogOPtuvg8h_HjvvH7_GeTmPp0YwZ0GNF&index=2"),
-    videoUrl: "https://www.youtube.com/watch?v=lB0a_bIjrXc&list=PLogOPtuvg8h_HjvvH7_GeTmPp0YwZ0GNF&index=2"
+    thumbnailUrl: getYouTubeThumbnail("lB0a_bIjrXc&list=PLogOPtuvg8h_HjvvH7_GeTmPp0YwZ0GNF"),
+    videoUrl: "https://www.youtube.com/watch?v=lB0a_bIjrXc&list=PLogOPtuvg8h_HjvvH7_GeTmPp0YwZ0GNF"
   }
 ];
