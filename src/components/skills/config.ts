@@ -1,4 +1,4 @@
-import bitcoin from "./../../images/bitcoin.png";
+import btc from "./../../images/btc.png";
 import ethereum from "./../../images/ethereum.png";
 import ichi from "./../../images/ichi.jpeg";
 import starknet from "./../../images/starknet.png";
@@ -26,7 +26,7 @@ export const skills: Skill[] = [
   {
     name: "Bitcoin",
     url: "https://bitcoin.org/en/",
-    img: bitcoin
+    img: btc
   },
   {
     name: "Starknet",
