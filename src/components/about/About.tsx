@@ -44,9 +44,6 @@ const About = () => {
             <a href="https://dev.to/supremesingh" target="_blank"> 
               <AiFillCode className="icon" />
             </a>
-            <a href="https://x.com/man_bun_mit" target="_blank">
-              <AiFillTwitterCircle className="icon" />
-            </a>
           </div>
 
           <div style={{ marginBottom: "2rem" }}>
