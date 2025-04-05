@@ -1,4 +1,4 @@
-import bitcoin_logo from "./../../images/bitcoin_logo.jpg";
+import bitcoin_logo from "./../../images/bitcoin_logo.png";
 import ethereum from "./../../images/ethereum.png";
 import ichi from "./../../images/ichi.jpeg";
 import starknet from "./../../images/starknet.png";
