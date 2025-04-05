@@ -22,7 +22,7 @@ const Problem = () => {
       <p className="text">The reason I'm so passionate about blockchains 🤔</p>
       <br></br>
       <Text fontSize="3xl">
-        TLDR: crypto matter because, in an increasingly digital society, it
+        TLDR: Decentralization matters because, in an increasingly digital society, it
         enables
       </Text>
       <br></br>
