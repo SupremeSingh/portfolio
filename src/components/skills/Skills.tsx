@@ -8,7 +8,7 @@ const Skills = () => {
   return(
     <div className="bg-skills">
       <p className="heading">My Toolbox</p>
-      <p className="text">Blockchains and protocols I'm familiar with:</p>
+      <p className="text">Blockchains, protocols, and DAOs I'm familiar with:</p>
       <div className="skill-icons-gird">
         {skills.map((skill: Skill) => {
           return(
