@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import { Heading, Text, Button, CloseButton } from '@chakra-ui/react';
-import { AiFillGithub, AiFillTwitterCircle, AiFillLinkedin, AiOutlineArrowRight, AiFillYoutube } from "react-icons/ai";
+import { AiFillGithub, AiFillTwitterCircle, AiFillCode, AiOutlineArrowRight, AiFillFacebook } from "react-icons/ai";
 import { BsTelegram, BsChevronDown } from "react-icons/bs";
 import avatar from "../../images/avatar.jpg";
 import "./About.css";
@@ -34,21 +34,21 @@ const About = () => {
             </Heading>
           </div>
           <div className="about-text-desc">
-            <Text fontSize='3xl'>a passionate <span className="name">builder</span> with a focus on <span className="name">cryptography, game theory and blockchains</span>. I'm always eager to meet and learn from other people shaping the future of the web.</Text>
+            <Text fontSize='3xl'>a passionate <span className="name">builder</span> and <span className="name">educator</span> with a focus on <span className="name">cryptography, game theory and blockchains</span>.</Text>
           </div>
 
           <div className="icons">
+            <a href="https://www.facebook.com/manmit.singh.3726" target="_blank">
+              <AiFillFacebook className="icon" />
+            </a>
             <a href="https://github.com/SupremeSingh" target="_blank">
               <AiFillGithub className="icon" />
             </a>
+            <a href="https://dev.to/supremesingh" target="_blank"> 
+              <AiFillCode className="icon" />
+            </a>
             <a href="https://x.com/man_bun_mit" target="_blank">
               <AiFillTwitterCircle className="icon" />
-            </a>
-            <a href="https://www.linkedin.com/in/manmit-singh99/" target="_blank">
-              <AiFillLinkedin className="icon" />
-            </a>
-            <a href="https://www.youtube.com/@man_bun_mit" target="_blank">
-              <AiFillYoutube className="icon" size={50} style={{ transform: 'translateY(-3px)' }} />
             </a>
           </div>
 
@@ -61,7 +61,7 @@ const About = () => {
           </div>
         </div>
         <div className="about-avatar">
-          <img src={avatar} className="avatar" alt="Manmit Avatar" />
+          <img src={avatar} className="avatar" alt="Manmit Singh Avatar" />
         </div>
       </div>
       <div className="icon-wrapper">

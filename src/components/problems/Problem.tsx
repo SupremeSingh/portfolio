@@ -46,16 +46,6 @@ const Problem = () => {
       <Text fontSize="3xl">
       To me, empowering the internet with these properties is essential for ensuring a productive and peaceful future for humanity. Not only does it enable more efficient global coordination, but it also holds the potential to reshape the broken incentive structures of many current internet businesses.
       </Text>
-      <br></br>
-      <Text fontSize="3xl">
-        I talk more about blockchains in the following ...
-      </Text>
-      <br></br>
-      <div className="video-grid">
-        {videos.map((video) => (
-          <VideoThumbnail key={uuidv4()} video={video} />
-        ))}
-      </div>
     </div>
   )
 }

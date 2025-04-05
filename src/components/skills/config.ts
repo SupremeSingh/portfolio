@@ -1,9 +1,8 @@
-import outliers from "./../../images/outliers.jpeg";
-import github from "./../../images/github.jpeg";
+import bitcoin from "./../../images/bitcoin.png";
+import ethereum from "./../../images/ethereum.png";
 import ichi from "./../../images/ichi.jpeg";
-import duke from "./../../images/duke.png";
 import starknet from "./../../images/starknet.png";
-import sikh from "./../../images/sikh.png";
+import outliers from "./../../images/outliers.jpeg";
 
 export type Skill = {
   name: string;
@@ -25,28 +24,28 @@ export const getSkill = (names: string[]) => {
 
 export const skills: Skill[] = [
   {
-    name: "Starknet Blockchain",
-    url: "https://www.starknet.io/en/",
+    name: "Bitcoin",
+    url: "https://bitcoin.org/en/",
+    img: bitcoin
+  },
+  {
+    name: "Starknet",
+    url: "https://www.starknet.io/",
     img: starknet
   },
   {
-    name: "Awesome-ZK",
-    url: "https://github.com/SupremeSingh/Awesome-ZK",
-    img: github
-  },
-  {
     name: "Outlier DAO",
-    url: "https://twitter.com/outlierdao",
+    url: "https://www.outliers.build/",
     img: outliers
   },
   {
-    name: "Duke Blockchain Lab",
-    url: "https://x.com/dukeblockchain?lang=en",
-    img: duke
+    name: "ICHI Protocol",
+    url: "https://ichi.org",
+    img: ichi
   },
   {
-    name: "Duke Sikh Society",
-    url: "https://www.instagram.com/dukesikhsociety/",
-    img: sikh
-  },
+    name: "Ethereum",
+    url: "https://ethereum.org/en/",
+    img: ethereum
+  }
 ]
