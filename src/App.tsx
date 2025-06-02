@@ -5,7 +5,7 @@ import Background from './components/background/Background';
 
 function App() {
   return (
-    <div>Under Maintenance</div>
+    <div>Website under maintenance. Be back soon!</div>
     /*
     <>
       <About />
