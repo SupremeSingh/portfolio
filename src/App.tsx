@@ -5,12 +5,15 @@ import Background from './components/background/Background';
 
 function App() {
   return (
+    <div>Under Maintenance</div>
+    /*
     <>
       <About />
       <Background />
       <Problem />
       <Skills />
     </>
+    */
   );
 }
 
